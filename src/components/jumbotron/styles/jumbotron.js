@@ -33,7 +33,7 @@ export const Item = styled.div`
 export const Title = styled.h1`
     font-size: 50px;
     font-weight: 1.1;
-    line-height: 8px;
+    line-height: 48px;
 
     @media (max-width: 600px) {
         font-size: 35px;
