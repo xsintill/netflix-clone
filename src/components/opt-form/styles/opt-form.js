@@ -1,5 +1,7 @@
 import styled from "styled-components/macro";
 
+import { OptForm } from '../../';
+
 export const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -11,6 +13,7 @@ export const Container = styled.div`
     align-items: center;
   }
 `;
+
 
 export const Input = styled.input`
   max-width: 450px;
@@ -62,7 +65,17 @@ export const Text = styled.p`
   }
 `;
 
-export const Inner = styled.div``;
+export const Inner = styled.div`
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
 export const Break = styled.div`
   flex-basis: 100%;
   height: 0;
