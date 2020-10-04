@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link as ReactRouterLink } from 'react-router-dom';
 
 import { Container, Title, SubTitle } from './styles/feature';
 
