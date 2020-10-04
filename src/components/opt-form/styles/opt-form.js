@@ -1,6 +1,4 @@
-import styled from "styled-components/macro";
-
-import { OptForm } from '../../';
+import styled from 'styled-components/macro';
 
 export const Container = styled.div`
   display: flex;
@@ -13,7 +11,6 @@ export const Container = styled.div`
     align-items: center;
   }
 `;
-
 
 export const Input = styled.input`
   max-width: 450px;
